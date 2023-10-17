@@ -1,4 +1,5 @@
 {
+
   "name": "biometric-login",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +18,7 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "vite build",
+    "build": "vite build --output public",
     "serve": "vite preview",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
